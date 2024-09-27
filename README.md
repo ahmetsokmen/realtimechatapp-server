@@ -11,3 +11,9 @@ Techs used in the repo :
 -mongoose
 -websocket
 -restful api (for non ws-required actions)
+
+To Run Project 
+Install required npm packages with npm install
+Run the app npm start
+
+There are four users registered in cloud with usernames : "johndoe","adamsmith","benjaminlinus","henryford"
