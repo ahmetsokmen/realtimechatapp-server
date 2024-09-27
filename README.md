@@ -14,6 +14,6 @@ Techs used in the repo :
 
 To Run Project 
 Install required npm packages with npm install
-Run the app npm start
+Then Run the app with nodemon
 
 There are four users registered in cloud with usernames : "johndoe","adamsmith","benjaminlinus","henryford"
