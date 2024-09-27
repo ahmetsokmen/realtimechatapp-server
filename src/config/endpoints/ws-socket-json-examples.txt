@@ -1,0 +1,19 @@
+1-privatechat
+
+localhost:1234
+msg (json) = {
+    "path": "privatechat",
+    "sender":"johndoe",
+    "receiver":"adamsmith"
+}
+
+2-groupchat
+
+localhost:1234
+msg (json) = {
+    
+    "path": "roomchat"
+
+}
+
+//ws export in postman does not exist due to beta version

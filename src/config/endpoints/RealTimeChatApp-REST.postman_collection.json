@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "6e511532-37aa-455c-8b7a-f1d6209c5ee1",
+		"name": "RealTimeChatApp-REST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25235247"
+	},
+	"item": [
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1111/users",
+					"host": [
+						"localhost"
+					],
+					"port": "1111",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1111/login?username=johndoe",
+					"host": [
+						"localhost"
+					],
+					"port": "1111",
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "johndoe"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
